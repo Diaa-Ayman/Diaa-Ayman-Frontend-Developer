@@ -38,7 +38,7 @@ export default function Pagination({ paginateData, itemsPerPage }) {
               key={index}
               onClick={() => setCurPage(index)}
               className={`paginate ${
-                curPage === index && "text-blue-700 bg-blue-50"
+                curPage === index && "text-white bg-slate-950"
               }`}
             >
               {index + 1}
